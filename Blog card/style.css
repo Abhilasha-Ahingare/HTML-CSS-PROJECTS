@@ -1,0 +1,151 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: #141313e5;
+}
+
+a {
+  color: inherit;
+}
+
+/* Card Styles */
+
+.cards-wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  padding: 4rem;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.cards-wrapper .num {
+  font-size: 2.5em;
+  padding: 1px;
+  margin-left: 10px;
+  color: #ffffffcd;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 21em;
+  width: 15em;
+  font-size: 1.5em;
+  border: 10px solid #928e8e;
+  padding: 1em;
+  border-radius: 1em;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  transition: all 1s ease-out;
+}
+
+.card h1 {
+  margin: 0;
+  line-height: 1.2em;
+  font-size: 1.5em;
+}
+
+.card p {
+  font-size: 0.75em;
+  font-family: ui-serif;
+  line-height: 2em;
+  margin-top: 1.5em;
+}
+
+.card .date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 16px;
+  font-size: 0.75em;
+  opacity: 0.8;
+  line-height: 0.75;
+}
+
+.card .tags {
+  position: absolute;
+  bottom: 1em;
+}
+
+.card .tag {
+  background: rgb(75, 75, 85);
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 0.3em;
+}
+
+.card .card-div {
+  margin-top: 5em;
+}
+
+.card::before,
+.card::after {
+  content: "";
+  transform: scale(0);
+  transform-origin: top left;
+  border-radius: 50%;
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  z-index: -5;
+  transition: all 1s ease-out;
+  transition-timing-function: ease-out;
+}
+
+.card:hover::after,
+.card:hover::before {
+  transform: scale(1);
+}
+
+.card::before {
+  background: #ddd;
+  width: 250%;
+  height: 250%;
+}
+
+.card::after {
+  background: white;
+  width: 250%;
+  height: 250%;
+}
+
+.card:hover {
+  color: black;
+  transform: rotate(0);
+}
+
+/* Image Styles */
+
+.image1 {
+  background-image: url("image/download.jpg");
+  --bg-filter-opacity: 0.5;
+  background-position: center;
+  background-size: cover;
+}
+
+.image2 {
+  background-image: url("image/my image.jpg");
+  --bg-filter-opacity: 0.5;
+  background-position: center;
+  background-size: cover;
+}
+
+.image3 {
+  background-image: url("image/Focused on your mind.jpg");
+  --bg-filter-opacity: 0.5;
+  background-position: center;
+  background-size: cover;
+}
