@@ -1,22 +1,22 @@
-# 📑 Blog Cards Animation  
 
-This project contains beautifully animated **blog cards** using **HTML & CSS**. These cards are designed to be responsive and visually appealing.  
+# 🎨 HTML & CSS Animation Projects  
 
-## 📌 Features  
-- **Hover Effects** for a smooth UI experience  
-- **Responsive Design** for different screen sizes  
-- **CSS-only Animations** (No JavaScript)  
-- **Modern UI Design** for blog previews  
+This repository contains various **HTML & CSS animation projects**, 
+including social media icons, blog cards, and more. Each project showcases different CSS techniques for animations and effects.  
 
+## 📌 Projects List  
+
+### 1️⃣ **Social Media Icon Animation**  
+📂 **Folder:** `soicalMediaIcon `  
+📝 **Description:** Animated social media icons with hover effects.  
+
+### 2️⃣ **Blog Cards Animation**  
+📂 **Folder:** `BlogCards`  
+📝 **Description:** Stylish blog card UI with hover animations.  
+
+ ## More projects
+ 
 ## 🚀 Technologies Used  
 - **HTML**  
 - **CSS**  
-
-## 📂 Folder Structure  
-```
-/BlogCards
-│── index.html
-│── style.css
-│── images/
-│── README.md
-``
+- **CSS Animations & Transitions**  
