@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  margin-top: 10px;
+  overflow: hidden;
+  
+}
+.box .imgs {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  object-position: center;
+  margin: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.box {
+  width: 26vw;
+  
+}
+.para {
+  margin-top: 20px;
+ 
+  line-height: 26px;
+}
+.casting img {
+  height: 69px;
+  width: 69px;
+  object-fit: cover;
+  padding: 4px;
+  border-radius: 37px 37px 37px 37px;
+}
+.casting {
+    color: white;
+  margin-top: 20px;
+}
+.star i {
+  color: rgb(186, 186, 84);
+  margin-bottom: 13px;
+}
+.star {
+  margin-top: 10px;
+}
+.btn button {
+  height: 34px;
+  width: 76px;
+  border-radius: 16px;
+  color: rgb(210, 208, 208);
+  background: transparent;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.text-area {
+   position: relative;
+  border: 1px solid;
+  border-radius: 14px;
+  padding: 10px 18px;
+  font-size: 17px;
+  background: rgba(18, 18, 18, 0.772);
+  color: rgb(146, 144, 144);
+  width: 460px;
+  height: 430px;
+  opacity: 0;
+  
+}
+h2 {
+  margin-top: 10px;
+  color: white;
+}
+p {
+  margin-top: 10px;
+}
+.box .imgs:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+    opacity: .5;
+}
+.box .imgs:hover ~ .text-area{
+    opacity: 1;
+    z-index: 3;
+    transition: all 0.7s linear;
+    transform: translateY(-440px);
+}
+
