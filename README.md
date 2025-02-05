@@ -12,7 +12,7 @@ Below is a list of some mini projects included in this repository:
 1. **Blog Card:**
 2. **Movie Poster Crad:**
 3. **Single login page:**
-4. **soical medial icon:**
+4. **Glassmorphism  Animation bolls:**
 
 More projects will be added soon! Stay tuned. 🎉
 
