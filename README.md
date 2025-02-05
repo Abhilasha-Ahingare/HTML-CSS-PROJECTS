@@ -3,20 +3,6 @@
 ## 📌 Overview
 
 This repository contains a collection of **mini projects** built using **HTML** and **CSS**. These projects are designed to help developers of all levels practice and enhance their front-end development skills by working on real-world examples. 
-
-Each project focuses on **modern design principles**, **responsive layouts**, and **clean code structure**. Whether you're a beginner exploring web development or an experienced developer looking for inspiration, this repository has something for you!
-
----
-
-## ✨ Key Features
-
-- **Diverse Projects:** Includes a variety of UI components and layouts such as cards, buttons, search bars, and grids.
-- **Modern Design Trends:** Implements techniques like **BLOG CARD **, **Neumorphism**, and **MOVIE POST CARD**.
-- **Fully Responsive:** Ensures compatibility across various devices, from desktops to mobile phones.
-- **Easy Customization:** Clean, modular codebase that allows effortless adaptation for personal or professional projects.
-- **Performance Optimization:** Lightweight, fast-loading designs.
-- **Cross-Browser Compatibility:** Works seamlessly across all major browsers.
-
 ---
 
 ## 🚀 Projects Included
