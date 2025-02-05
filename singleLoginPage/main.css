@@ -1,0 +1,205 @@
+/* Layout */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7;
+  overflow-x: hidden;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #5d7fa1;
+}
+
+/* Typography */
+
+h5 span {
+  font-size: 21px;
+  padding: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 23px;
+  color: #ccc;
+}
+
+p {
+  color: #ccc;
+  position: relative;
+  top: 40px;
+}
+
+/* Buttons */
+
+.btn {
+  transition: all 200ms linear;
+  border: none;
+  font-size: 21px;
+  background: #9b9680;
+  border-radius: 10px;
+  padding: 4px 24px;
+  position: relative;
+  top: 30px;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: #303052;
+  color: #ccc;
+}
+
+/* Form Styles */
+
+.input {
+  margin-top: 29px;
+}
+
+.form-style {
+  width: 80%;
+  height: 32px;
+  background: transparent;
+  margin: 5px 0px;
+  border-radius: 6px;
+  text-transform: capitalize;
+  color: #ccc;
+  outline: none;
+}
+
+input::placeholder {
+  color: #ccc;
+  position: relative;
+  left: 35px;
+}
+
+input:focus::placeholder {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Card Styles */
+
+.content {
+  position: relative;
+  height: 35vh;
+  width: 25vw;
+  border-radius: 9px;
+  background-image: url("download (3).jpg");
+  padding: 10px 10px;
+  background-size: contain;
+  background-origin: border-box;
+  filter: drop-shadow(2px 4px 6px black);
+  margin-top: 37px;
+  transform-style: preserve-3d;
+  transition: all 600ms ease-out;
+}
+
+.card-one,
+.card-two {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+}
+
+.card-two{
+  position: relative;
+  top: -223px;
+}
+
+.card-one {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.checkbox:checked ~ .content  .card-one {
+  transform: rotateY(167deg);
+  opacity: 1;
+  visibility: visible;
+}
+
+.checkbox:checked ~.content .card-two{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.checkbox:checked ~ .content{
+  transform: rotateY(83deg);
+}
+
+.checkbox:checked ~ .content{
+  transform: rotateY(167deg);
+}
+
+/* Checkbox Styles */
+
+.checkbox {
+  width: 0;
+  height: 0;
+  cursor: pointer;
+}
+
+.checkbox::before {
+  content: "";
+  position: absolute;
+  left: 48%;
+  height: 12px;
+  width: 46px;
+  text-align: center;
+  background-color: rgb(129, 149, 142);
+  border-radius: 37%;
+}
+
+.checkbox::after {
+  content: "←";
+  position: absolute;
+  left: 48%;
+  top: 5%;
+  background: rgb(27, 63, 110);
+  border-radius: 60%;
+  font-size: 14px;
+  padding: 3px;
+  color: #ccc;
+  transform: rotate(38deg);
+  transition: all 0.4s ease-in-out;
+}
+
+.checkbox:checked::after {
+  
+  transform:  translateX(33px) rotate(151deg);
+}
+
+/* icon styles */
+
+.icon {
+  position: relative;
+  left: -300px;
+  top: 27%;
+  background-color: transparent;
+  color: rgb(199, 194, 194);
+}
+
+.card-two .icon {
+  position: relative;
+  left: -355px;
+  top: 27%;
+  background-color: transparent;
+  color: rgb(199, 194, 194);
+}
+
