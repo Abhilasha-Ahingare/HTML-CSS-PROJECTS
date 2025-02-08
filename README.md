@@ -18,25 +18,6 @@ Below is a list of some mini projects included in this repository:
 More projects will be added soon! Stay tuned. 🎉
 
 ---
-
-## 📂 Folder Structure
-
-To maintain clarity, the repository follows an organized folder structure:
-
-```
-HTML-CSS-Mini-Projects
-├── project1/           # Each mini project has its own folder
-│   ├── index.html      # HTML file for the project
-│   ├── style.css       # CSS file for the project
-├── project2/
-│   ├── index.html
-│   ├── style.css
-├── assets/             # Shared assets like images, icons, etc.
-├── README.md           # Project documentation (this file)
-```
-
----
-
 ## 🛠 Technologies Used
 
 This repository utilizes the following core web technologies:
@@ -99,15 +80,6 @@ Contributions are always welcome! Here’s how you can contribute to this reposi
 This repository is licensed under the **MIT License**. You are free to use, modify, and distribute the code as per the terms of the license. For details, refer to the `LICENSE` file.
 
 ---
-
-## 🙏 Acknowledgments
-
-Special thanks to the following resources and inspirations:
-
-- **[Font Awesome](https://fontawesome.com/):** For providing free and premium icons.
-- **[Unsplash](https://unsplash.com/):** For high-quality placeholder images.
-- **[W3Schools](https://www.w3schools.com/):** For excellent tutorials and references.
-- **[FreeCodeCamp](https://www.freecodecamp.org/):** For frontend development guides.
 
 If you find this repository helpful, please ⭐ star the project and share it with others!
 
