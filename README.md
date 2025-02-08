@@ -13,6 +13,7 @@ Below is a list of some mini projects included in this repository:
 2. **Movie Poster Crad:**
 3. **Single login page:**
 4. **Glassmorphism  Animation bolls:**
+5. **Bottom Tab Bar Navigation :**
 
 More projects will be added soon! Stay tuned. 🎉
 
