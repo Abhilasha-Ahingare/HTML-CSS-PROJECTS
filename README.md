@@ -14,6 +14,7 @@ Below is a list of some mini projects included in this repository:
 3. **Single login page:**
 4. **Glassmorphism  Animation bolls:**
 5. **Bottom Tab Bar Navigation :**
+6. **image card:**
 
 More projects will be added soon! Stay tuned. 🎉
 
