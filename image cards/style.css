@@ -1,0 +1,89 @@
+/* Layout */
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(196deg, #507877, #829f9b);
+}
+.container {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+/* Cards */
+
+.face1 {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+}
+.face {
+  width: 312px;
+  height: 232px;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.face-2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-224px);
+  transition: all 1s ease-in-out;
+}
+.outer {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  opacity: 0.3;
+  transition: 0.5s;
+}
+/* Images */
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Text */
+h2 {
+  position: absolute;
+  top: 76%;
+  color: #f2eaea;
+  font-size: 27px;
+}
+p {
+  line-height: 22px;
+  padding: 6px 5px;
+  color: #252323;
+}
+/* Buttons */
+button {
+  height: 36px;
+  width: 100px;
+  border-radius: 5px;
+  margin-left: 9px;
+  background: #829f9b;
+}
+/* Hover Effects */
+
+.card:hover .outer {
+  opacity: 1;
+}
+
+.card:hover .face-2 {
+  transform: translateY(0);
+  background-color: rgb(110, 133, 135);
+}
