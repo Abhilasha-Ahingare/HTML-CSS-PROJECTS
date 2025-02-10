@@ -15,6 +15,7 @@ Below is a list of some mini projects included in this repository:
 4. **Glassmorphism  Animation bolls:**
 5. **Bottom Tab Bar Navigation :**
 6. **image card:**
+7. **chair product page:**
 
 More projects will be added soon! Stay tuned. 🎉
 
