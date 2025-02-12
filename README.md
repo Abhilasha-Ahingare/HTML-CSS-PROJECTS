@@ -16,6 +16,7 @@ Below is a list of some mini projects included in this repository:
 5. **Bottom Tab Bar Navigation :**
 6. **image card:**
 7. **chair product page:**
+8. **card desgin:**
 
 More projects will be added soon! Stay tuned. 🎉
 
