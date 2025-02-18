@@ -18,6 +18,7 @@ Below is a list of some mini projects included in this repository:
 7. **chair product page:**
 8. **card desgin:**
 9. **glowing search bar:**
+10. **drop down menu:**
 
 More projects will be added soon! Stay tuned. 🎉
 
