@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  font-weight: 800;
+  background-color: #d6cbcb;
+}
+.switch {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 50px;
+  margin: -30px 0 0 -75px;
+  text-align: center;
+  background: #4cd964;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border-radius: 25px;
+}
+.switch span {
+    position: absolute;
+    width: 20px;
+    height: 4px;
+    top: 30%;
+    left: 50%;
+    font-size: 20px;
+    margin: -3px 0px 0px -7px;
+    /* background: #fff; */
+    display: block;
+    color: white;
+    transition: all 0.2s ease;
+    border-radius: 2px;
+}
+.span-2{
+    opacity: 0;
+}
+label{
+    position: relative;
+    top: 12px;
+    padding: 22px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2 ease;
+}
+input[type=radio]{
+    display: none;
+}
+#no:checked~.switch{
+    background: #ff3b30;
+}
+
+#yes:checked ~ .switch label[for=yes]{
+    color: #fff;
+}
+#no:checked ~ .switch label[for=no]{
+    color: #fff;
+}
+#no:checked~ .switch .span-2{
+    opacity: 1;
+}
+#no:checked ~ .switch span .fa-check{
+visibility: hidden;
+}
+
